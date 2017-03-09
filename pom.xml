@@ -3,14 +3,14 @@
 	<groupId>com.degree</groupId>
 	<artifactId>test</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>test Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<scm>
 		<connection>scm:git:git@github.com:sathyarajc/TestMavenProj.git</connection>
 		<url>scm:git:git@github.com:sathyarajc/TestMavenProj.git</url>
 		<developerConnection>scm:git:git@github.com:sathyarajc/TestMavenProj.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>test-0.0.1</tag>
 	</scm>
 
 	<distributionManagement>
