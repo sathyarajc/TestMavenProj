@@ -3,7 +3,7 @@
 	<groupId>com.degree</groupId>
 	<artifactId>test</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>test Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<scm>
@@ -43,7 +43,7 @@
 	</dependencies>
 
 	<build>
-		<pluginManagement>
+	<finalName>test</finalName>
 			<plugins>
 				<plugin>
 					<artifactId>maven-release-plugin</artifactId>
@@ -56,11 +56,11 @@
 							</goals>
 							<configuration>
 								<pomFileName>${project.name}/pom.xml</pomFileName>
+								<useReleaseProfile>false</useReleaseProfile>
 							</configuration>
 						</execution>
 					</executions>
 				</plugin>
 			</plugins>
-		</pluginManagement>
 	</build>
 </project>
